@@ -96,14 +96,54 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* start global classes */
 .headercolor{
   color: white;
   background-color: #dd9833;
+  padding: 0 auto;
 }
+
+.Fcontact{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.Abio{
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px auto;
+  border-radius: 10px;
+}
+
+.Sbio{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.Sbio img{
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
+}
+/* end global classes */
+
+/* start common rules */
+li{
+  list-style-type: none;
+  text-decoration: none;
+}
+/* end common rules */
 
 body{
   background-color: #fdf6ed;
 }
+
+/* start nav */
 section{
   display: flex;
   justify-content: center;
@@ -117,16 +157,37 @@ nav{
 nav h2{
   padding-left: 40px;
 }
+/* end nav */
+
+/* start header */
 header{
   text-align: center;
 }
 
+header p{
+  /* width: 95vh; */
+  margin: 0;
+  padding: 0;
+}
+/* end header */
+
+/* start main */
+main{
+  display: flex;
+  justify-content: center;
+}
+
+/* end main */
+
+/* start footer */
 footer{
+  padding-top: 10px;
+  height: 50px;
   color: black;
   text-align: center;
   font-size: .7em;
 }
-
+/* end footer */
 
 
 
