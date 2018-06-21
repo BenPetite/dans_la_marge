@@ -126,9 +126,14 @@ textarea {
 }
 
 .Sbio img{
-  margin: 0 auto;
-  padding: 0;
+  /* margin: 0 auto;
+  padding: 0; */
   width: 200px;
+}
+
+.bgImages{
+  background-color: black;
+  display: flex;
 }
 /* end global classes */
 
@@ -161,34 +166,39 @@ nav h2{
 
 /* start header */
 header{
+  background-color: black;
   text-align: center;
 }
 
-header p{
-  /* width: 95vh; */
-  margin: 0;
-  padding: 0;
+header img{
+  width: 100%;
+  background-image: url(../img/header.jpg);
+  background-size: cover;
 }
 /* end header */
 
 /* start main */
-main{
-  display: flex;
-  justify-content: center;
+main section{
+  flex-wrap: wrap;
+  width: auto;
 }
 
+section div{
+  justify-content: center;
+}
 /* end main */
 
 /* start footer */
 footer{
+  background-color: black;
+  margin: 0;
   padding-top: 10px;
   height: 50px;
-  color: black;
+  color: white;
   text-align: center;
   font-size: .7em;
 }
 /* end footer */
-
 
 
 
