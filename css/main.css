@@ -132,7 +132,6 @@ textarea {
 }
 
 .bgImages{
-  background-color: black;
   display: flex;
 }
 /* end global classes */
@@ -143,10 +142,6 @@ li{
   text-decoration: none;
 }
 /* end common rules */
-
-body{
-  background-color: #fdf6ed;
-}
 
 /* start nav */
 section{
@@ -171,13 +166,16 @@ header{
 }
 
 header img{
-  width: 100%;
-  background-image: url(../img/header.jpg);
-  background-size: cover;
+  background-image: url(../img/header750.jpg);
+  object-fit: contain;
 }
 /* end header */
 
 /* start main */
+main article{
+  text-align: center;
+}
+
 main section{
   flex-wrap: wrap;
   width: auto;
@@ -199,9 +197,6 @@ footer{
   font-size: .7em;
 }
 /* end footer */
-
-
-
 
 
 
